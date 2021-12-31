@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #b2c8c4;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #489b89;
+    height: 95px;
+}
+.logo{
+    font-family: 'Pushster', cursive;
+    font-size: 55px;
+    color: white;
+    margin-right: 30px;
+}
+.pesquisa{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.pesquisa input{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    width: 450px;
+    border: none;
+}
+.pesquisa input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.pesquisa a{
+    padding: 10px;
+    padding-bottom: 5px;
+    background-color: #FFF;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.pesquisa a:hover{
+    background-color: #00CED1;
+}
+.pesquisa img{
+    width: 30px;    
+}
+.conta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.conta img{
+    width: 35px;
+}
+.conta span{
+    margin-left: 8px;
+    color: #FFF;
+    font-size: 16px;
+}
+.conta a{
+    text-decoration: none;
+    color: #FFF;
+}
+.conta a:hover{
+    text-decoration: underline;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.icones img{
+    width: 30px;
+}
+.icones a{
+    margin: 7px;
+}
+ul {
+    z-index: 10;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    z-index: 10;
+    text-align: center;
+    position: relative;
+    width: 160px;
+}
+li ul {
+    z-index: 10;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    display: none;
+}
+.sei1 li{
+    z-index: 10;
+    font-size: 15px;
+}
+.sei .sei1{
+    z-index: 10;
+    padding: 12px 0;
+}
+.sei .link{
+    z-index: 10;
+    padding: 20px 5px;
+}
+ul li a {
+    z-index: 10;
+    background-color: #1f4d41;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    
+}
+ul li a:hover{
+    z-index: 10;
+    background-color: #FFF;
+    color: #489b89;
+    
+}
+.sla .sla1{
+    z-index: 10;
+    top: -45px;
+    left: 160px;
+}
+.sl:hover .sla{
+    z-index: 10;
+    display: block;
+}
+.sei:hover .sei1 { display: block; z-index: 10;}
+ul li a:hover{
+    z-index: 10;
+    text-decoration:underline;
+}
+.historico a{
+    text-decoration: none;
+    color: #15362d;
+}
+.geral{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width:70%;
+}
+.produto{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+.imagem_produto{
+    display: flex;
+    align-items: flex-start;
+}
+.selecao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.selecao img{
+    cursor: pointer;
+    border: 2px solid #306e63;
+    border-radius: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 120px;
+}
+.selecao .img1{
+    border: 2px solid #489b89;
+}
+#imagem{
+    margin-left: 30px;
+    overflow: hidden;
+    width: 630px;
+    height: 630px;
+}
+#imagem img{
+    transform-origin: center center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.info{
+    padding-left: 30px;
+}
+.info .titulo{
+    font-weight: 700;
+    font-size: 30px;
+    color: #15362d;
+}
+.preco{
+    display: block;
+    font-weight: 600;
+    font-size: 55px;
+    color: #489b89;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #15362d;
+}
+.preco_detalhe{
+    display: block;
+    font-weight: 500;
+    font-size: 17px;
+    color: #15362d;
+}
+.detalhes{
+    font-size: 15px;
+    color: #15362d;
+}
+.detalhes img{
+    width: 25px;
+}
+.detalhes span{
+    display: block;
+}
+.avaliacao{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.avaliacao span{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.disponibilidade{
+    padding: 2px;
+    text-align: center;
+    background-color: #489b89;
+    margin-top: 5px;
+    font-size: 19px;
+    color: #FFF;
+    font-weight: 600;
+    width: 320px;
+    border: 2px solid #15362d;
+}
+.icones_detalhes img{
+    cursor: pointer;
+    margin: 0 2px;
+    margin-top: 10px;
+}
+.comprar{
+    margin-top: 20px;
+    width: 300px;
+    background-color: #489b89;
+    border: 4px solid #FFF;
+    outline: 2px solid #489b89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+}
+.comprar span{
+    font-weight: 600;
+    font-size: 40px;
+    color:#FFF;
+    margin-right: 15px;
+}
+svg{
+    width: 50px;
+    height: auto;
+}
+.comprar:hover{
+    background-color: #FFF;
+    border: 4px solid #489b89;
+    outline: 2px solid #FFF;
+}
+.comprar:hover span{
+    color: #489b89;
+}
+.comprar:hover svg path{
+    fill: #489b89;
+}
+.heart1, .heart2{
+    display: none;
+}
+.frete{
+    margin-top: 20px;
+}
+.frete label{
+    font-weight: 500;
+    font-size: 17px;
+}
+.frete input{
+    color: #15362d;
+    margin-top: 5px;
+    outline: 0;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    border: 0;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 2px solid #489b89;
+    border-top: 2px solid #489b89;
+    border-left: 2px solid #489b89;
+}
+.cep{
+    display: flex;
+    align-items: center;
+}
+.ok{
+    margin-top: 5px;
+    cursor: pointer;
+    color: #489b89;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    border-bottom: 2px solid #489b89;
+    border-top: 2px solid #489b89;
+    border-right: 2px solid #489b89;
+    background-color: #FFF;
+    font-weight: 600;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ok:hover{
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    background-color: #489b89;
+}
