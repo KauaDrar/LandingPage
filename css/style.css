@@ -91,12 +91,12 @@ body{
 }
 .conta span{
     margin-left: 0.5vw;
-    color: #ff007f;
+    color: #FFF;
     font-size: 0.85vw;
 }
 .conta a{
     text-decoration: none;
-    color: #ff007f;
+    color: #FFF;
 }
 .conta a:hover{
     text-decoration: underline;
