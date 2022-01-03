@@ -216,14 +216,14 @@ body{
 }
 .selecao img{
     cursor: pointer;
-    border: 0.15vw solid #04d9ff;
+    border: 2px solid #04d9ff;
     border-radius: 0.4vw;
     margin: 0 0.5vw;
     margin-bottom: 0.4vw;
     width: 6vw;
 }
 .selecao .img1{
-    border: 0.15vw solid #ff007f;
+    border: 2px solid #ff007f;
 }
 #imagem{
     margin-bottom: 0.5vw;
