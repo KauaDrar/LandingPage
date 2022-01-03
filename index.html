@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+        <meta nome="viewport" content="width=device-width,user-scalable=0">
         <link rel="stylesheet" href="css/style.css">
         <script type="text/javascript" src="js/script.js" defer></script>
         <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -11,104 +11,429 @@
         <title>Fone de Ouvido Multilaser Warrior Raiko PH259</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Pushster&display=swap" rel="stylesheet">
+        
     </head>
     <body>
         <header>
             <div class="cabecalho">
+                <div class="botao_menu">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                </div>
                 <div class="logo">
                     <span>Drar Store</span>
                 </div>
                 <ul id="nav">
-                    <li class="sei"><a href="" class="link">DEPARTAMENTOS</a>
-                      <ul class="sei1">
-                        <li class="sl"><a href="">Hardwares</a>
-                            <ul id="nav" class="sla">
-                                <li class="sla1"><a href="">Placas de Vídeo</a></li>
-                                <li class="sla1"><a href="">Processadores</a></li>
-                                <li class="sla1"><a href="">Memórias</a></li>
-                                <li class="sla1"><a href="">Placas Mãe</a></li>
+                    <li class="menu1"><a class="link">DEPARTAMENTOS</a>
+                      <ul class="menu2">
+                        <li class="menu3"><a>Hardwares</a>
+                            <ul id="nav" class="menu4">
+                                <li class="menu5"><a>Placas de Vídeo</a></li>
+                                <li class="menu5"><a>Processadores</a></li>
+                                <li class="menu5"><a>Memórias</a></li>
+                                <li class="menu5"><a>Placas Mãe</a></li>
                             </ul>
                         </li>
-                        <li class="sl"><a href="">Periféricos</a>
-                            <ul id="nav" class="sla">
-                                <li class="sla1"><a href="">Mouses</a></li>
-                                <li class="sla1"><a href="">Teclados</a></li>
-                                <li class="sla1"><a href="">Headsets</a></li>
+                        <li class="menu3"><a>Periféricos</a>
+                            <ul id="nav" class="menu4">
+                                <li class="menu5"><a>Mouses</a></li>
+                                <li class="menu5"><a>Teclados</a></li>
+                                <li class="menu5"><a>Headsets</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Computadores</a></li>
-                        <li><a href="">Celulares</a></li>
+                        <li><a>Computadores</a></li>
+                        <li><a>Celulares</a></li>
+                        <li><a>Gabinetes</a></li>
+                        <li><a>Monitores</a></li>
+                        <li><a>Cadeiras</a></li>
                       </ul>
                     </li>
                 </ul>
                 <div class="pesquisa">
-                    <input type="text" id="pesquisa" placeholder="Busque seu produto." tabindex="1">
-                    <a href=""><img src="images/search.svg"></a>
+                    <input type="text" id="pesquisa" placeholder="Busque seu produto" tabindex="1">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                viewBox="0 0 487.95 487.95" style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve"><g><g><path fill="#489b89" d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1 c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4 c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
                 </div>
                 <div class="conta">
                     <img src="images/user.svg">
                     <span><a href="">Entre</a> ou <br><a href="">cadastre-se</a>.</span>
                 </div>
                 <div class="icones">
-                    <a href=""><img src="images/heart.svg"></a>
-                    <a href=""><img src="images/cart.svg"></a>
+                    <img src="images/heart.svg">
+                    <img src="images/cart.svg">
                 </div>
+            </div>
+
+            <div class="menu_mobile">
+                <div class="area_visivel">
+                    <div class="bloco_um">
+                        <div class="conta">
+                            <img src="images/user.svg">
+                            <span><a href="">Entre</a> ou <br><a href="">cadastre-se</a>.</span>
+                        </div>
+                        <div class="fechar_menu">
+                            <img src="images/close.svg">
+                        </div>
+                    </div>
+                    <div class="bloco_dois">
+                        <div class="pesquisa">
+                            <input type="text" id="pesquisa" placeholder="Busque seu produto" tabindex="1">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 487.95 487.95" style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve"><g><g><path fill="#489b89" d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1 c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4 c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                        </div>
+                        <ul id="nav">
+                            <li class="menu1"><a class="link">DEPARTAMENTOS</a>
+                              <ul class="menu2">
+                                <li class="menu3"><a>Hardwares</a>
+                                    <ul id="nav" class="menu4">
+                                        <li class="menu5"><a>Placas de Vídeo</a></li>
+                                        <li class="menu5"><a>Processadores</a></li>
+                                        <li class="menu5"><a>Memórias</a></li>
+                                        <li class="menu5"><a>Placas Mãe</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu3"><a>Periféricos</a>
+                                    <ul id="nav" class="menu4">
+                                        <li class="menu5"><a>Mouses</a></li>
+                                        <li class="menu5"><a>Teclados</a></li>
+                                        <li class="menu5"><a>Headsets</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>Computadores</a></li>
+                                <li><a>Celulares</a></li>
+                                <li><a>Gabinetes</a></li>
+                                <li><a>Monitores</a></li>
+                                <li><a>Cadeiras</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="area_invisivel">
+                </div>
+                
             </div>
         </header>
-        <section class="geral">
+        <main class="geral">
             <div class="container">
-                <div class="historico">
+                <section class="navegacao">
                     <span><a href="">Periféricos</a> / <a href="">Headsets</a> / <a href="">Multilaser Warrior Raiko PH259</a></span>
-                </div>
-                <div class="produto">
-                    <div class="imagem_produto">
-                        <div class="selecao">
-                            <img class="img1" src="https://images.kabum.com.br/produtos/fotos/98032/98032_3_1535033792_gg.jpg">
-                            <img class="img2" src="https://images.kabum.com.br/produtos/fotos/98032/98032_2_1535033792_gg.jpg">
-                            <img class="img3" src="https://images.kabum.com.br/produtos/fotos/98032/98032_1_1535033792_gg.jpg">
-                            <img class="img4" src="https://images.kabum.com.br/produtos/fotos/98032/98032_1535033792_gg.jpg">
+                    <span><a href="#produto">Produto</a> | <a href="#info">Informações</a> | <a href="#avaliacoes">Avalições</a> | <a href="#perguntas">Perguntas</a></span>
+                </section>
+                <section id="produto">
+                    <div class="produto_desktop">
+                        <div class="imagem_produto">
+                            <div class="selecao">
+                                <img class="img1" src="https://images.kabum.com.br/produtos/fotos/98032/98032_3_1535033792_gg.jpg">
+                                <img class="img2" src="https://images.kabum.com.br/produtos/fotos/98032/98032_2_1535033792_gg.jpg">
+                                <img class="img3" src="https://images.kabum.com.br/produtos/fotos/98032/98032_1_1535033792_gg.jpg">
+                                <img class="img4" src="https://images.kabum.com.br/produtos/fotos/98032/98032_1535033792_gg.jpg">
+                            </div>
+                            <div id="imagem">
+                                <img src="https://images.kabum.com.br/produtos/fotos/98032/98032_3_1535033792_gg.jpg">
+                            </div>
                         </div>
-                        <div id="imagem">
-                            <img src="https://images.kabum.com.br/produtos/fotos/98032/98032_3_1535033792_gg.jpg">
+                        <div class="texto_produto">
+                            <h1 class="titulo">Headset Gamer Multilaser Warrior Raiko PH259 7.1 USB com Led Verde</h1>
+                            <div class="detalhes">
+                                <div class="icones_detalhes">
+                                    <img class="heart" src="images/heart_verde.svg">
+                                    <img class="share" src="images/share.svg">
+                                </div>
+                                <div class="avaliacao_clientes">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <span>2 avaliações</span>
+                                </div>
+                                <span>2 perguntas respondidas</span>
+                                <span class="disponibilidade">Produto disponível em estoque</span>
+                            </div>
+                            <span class="preco">R$ 180,00</span>
+                            <span class="preco_detalhe">À vista.</span>
+                            <span class="preco_detalhe">Ou R$ 200,00 em até 12x no cartão.</span>
+                            <div class="comprar">
+                                <span>COMPRAR</span>
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="902.86px" height="902.86px" viewBox="0 0 902.86 902.86" style="enable-background:new 0 0 902.86 902.86;" xml:space="preserve"><g><g><path d="M671.504,577.829l110.485-432.609H902.86v-68H729.174L703.128,179.2L0,178.697l74.753,399.129h596.751V577.829z M685.766,247.188l-67.077,262.64H131.199L81.928,246.756L685.766,247.188z"/><path d="M578.418,825.641c59.961,0,108.743-48.783,108.743-108.744s-48.782-108.742-108.743-108.742H168.717 c-59.961,0-108.744,48.781-108.744,108.742s48.782,108.744,108.744,108.744c59.962,0,108.743-48.783,108.743-108.744 c0-14.4-2.821-28.152-7.927-40.742h208.069c-5.107,12.59-7.928,26.342-7.928,40.742 C469.675,776.858,518.457,825.641,578.418,825.641z M209.46,716.897c0,22.467-18.277,40.744-40.743,40.744 c-22.466,0-40.744-18.277-40.744-40.744c0-22.465,18.277-40.742,40.744-40.742C191.183,676.155,209.46,694.432,209.46,716.897z M619.162,716.897c0,22.467-18.277,40.744-40.743,40.744s-40.743-18.277-40.743-40.744c0-22.465,18.277-40.742,40.743-40.742 S619.162,694.432,619.162,716.897z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                            </div>
+                            <div class="frete">
+                                <label for="cep">Calcular o valor do frete e o prazo de de entrega</label>
+                                <div class="cep">
+                                    <input type="text" id="cep_desktop" class="cep_input" placeholder="CEP" autocomplete="off">
+                                <div class="ok">OK</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="info">
-                        <span class="titulo">Headset Gamer Multilaser Warrior Raiko PH259 7.1 USB com Led Verde</span>
+                    <div class="produto_mobile">
                         <div class="detalhes">
                             <div class="icones_detalhes">
-                                <img class="heart" src="images/heart_verde.svg">
+                                <img class="heart_mobile" src="images/heart_verde.svg">
                                 <img class="share" src="images/share.svg">
                             </div>
-                            <div class="avaliacao">
-                                <img src="images/star.svg">
-                                <img src="images/star.svg">
-                                <img src="images/star.svg">
-                                <img src="images/star.svg">
-                                <img src="images/star.svg">
-                                <span>2 avaliações</span>
+                        </div>
+                        <div class="imagem_produto">
+                            <div class="seta_esquerda"><img src="images/arrow.svg"></div>
+                            <div id="imagem_mobile">
+                                <img src="https://images.kabum.com.br/produtos/fotos/98032/98032_3_1535033792_gg.jpg">
                             </div>
-                            <span>2 perguntas respondidas</span>
-                            <span class="disponibilidade">Produto disponível em estoque</span>
+                            <div class="seta_direita"><img src="images/arrow.svg"></div>
                         </div>
-                        <span class="preco">R$ 180,00</span>
-                        <span class="preco_detalhe">À vista.</span>
-                        <span class="preco_detalhe">Ou R$ 200,00 em até 12x no cartão.</span>
-                        <div class="comprar">
-                            <span>COMPRAR</span>
-                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="902.86px" height="902.86px" viewBox="0 0 902.86 902.86" style="enable-background:new 0 0 902.86 902.86;" xml:space="preserve"><g><g><path d="M671.504,577.829l110.485-432.609H902.86v-68H729.174L703.128,179.2L0,178.697l74.753,399.129h596.751V577.829z M685.766,247.188l-67.077,262.64H131.199L81.928,246.756L685.766,247.188z"/><path d="M578.418,825.641c59.961,0,108.743-48.783,108.743-108.744s-48.782-108.742-108.743-108.742H168.717 c-59.961,0-108.744,48.781-108.744,108.742s48.782,108.744,108.744,108.744c59.962,0,108.743-48.783,108.743-108.744 c0-14.4-2.821-28.152-7.927-40.742h208.069c-5.107,12.59-7.928,26.342-7.928,40.742 C469.675,776.858,518.457,825.641,578.418,825.641z M209.46,716.897c0,22.467-18.277,40.744-40.743,40.744 c-22.466,0-40.744-18.277-40.744-40.744c0-22.465,18.277-40.742,40.744-40.742C191.183,676.155,209.46,694.432,209.46,716.897z M619.162,716.897c0,22.467-18.277,40.744-40.743,40.744s-40.743-18.277-40.743-40.744c0-22.465,18.277-40.742,40.743-40.742 S619.162,694.432,619.162,716.897z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
-                        </div>
-                        <div class="frete">
-                            <label for="cep">Calcular o valor do frete e o prazo de de entrega</label>
-                            <div class="cep">
-                                <input type="text" id="cep" placeholder="CEP" autocomplete="off">
-                            <div class="ok">OK</div>
+                        <div class="texto_produto">
+                            <div class="bloco_um">
+                                <div class="avaliacao_clientes">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                </div>
+                                <h1 class="titulo">Headset Gamer Multilaser Warrior Raiko PH259 7.1 USB com Led Verde</h1>
+                            </div>
+                            <div class="bloco_dois">
+                                <span class="disponibilidade">Produto disponível em estoque</span>
+                                <div class="valor">
+                                    <span class="preco">R$ 180,00</span>
+                                    <span class="preco_detalhe">À vista.<br>Ou R$ 200,00<br>em até 12x no cartão.</span>
+                                </div>
+                                <div class="comprar">
+                                    <span>COMPRAR</span>
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="902.86px" height="902.86px" viewBox="0 0 902.86 902.86" style="enable-background:new 0 0 902.86 902.86;" xml:space="preserve"><g><g><path d="M671.504,577.829l110.485-432.609H902.86v-68H729.174L703.128,179.2L0,178.697l74.753,399.129h596.751V577.829z M685.766,247.188l-67.077,262.64H131.199L81.928,246.756L685.766,247.188z"/><path d="M578.418,825.641c59.961,0,108.743-48.783,108.743-108.744s-48.782-108.742-108.743-108.742H168.717 c-59.961,0-108.744,48.781-108.744,108.742s48.782,108.744,108.744,108.744c59.962,0,108.743-48.783,108.743-108.744 c0-14.4-2.821-28.152-7.927-40.742h208.069c-5.107,12.59-7.928,26.342-7.928,40.742 C469.675,776.858,518.457,825.641,578.418,825.641z M209.46,716.897c0,22.467-18.277,40.744-40.743,40.744 c-22.466,0-40.744-18.277-40.744-40.744c0-22.465,18.277-40.742,40.744-40.742C191.183,676.155,209.46,694.432,209.46,716.897z M619.162,716.897c0,22.467-18.277,40.744-40.743,40.744s-40.743-18.277-40.743-40.744c0-22.465,18.277-40.742,40.743-40.742 S619.162,694.432,619.162,716.897z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                </div>
+                            </div>
+                            <div class="bloco_tres">
+                                <div class="frete">
+                                    <label for="cep">Calcular o valor do frete e o prazo de de entrega</label>
+                                    <div class="cep">
+                                        <input type="text" id="cep_mobile" class="cep_input" placeholder="CEP" autocomplete="off">
+                                        <div class="ok">OK</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
+                </section>
+                <section id="info">
+                    <div class="expandir_info">
+                        <h2>INFORMAÇÕES TÉCNICAS</h2>
+                        <img src="images/arrow.svg">
+                    </div>
+                    
+                    <div class="texto_infos">
+                        <span><span class="destaque">Características:</span><br>- Marca: Warrior<br>- Modelo: PH258<br><br><span class="destaque">Especificações</span>:<br>- Áudio: Som 3D digital 7.1<br>- Driver: 50mm<br>- Impedância: 32 Ohms<br>- Sensibilidade: 108 dB<br>- Frequência de resposta: 20 . 20 khz<br>- Potência de entrada maxima: 100 mw<br><br><span class="destaque">Microfone:</span><br>- Sensibilidade: -48dB<br><br><span class="destaque">Cabo:</span><br>- Comprimento de cabo: 2.1 m<br><br><span class="destaque">Informações Adicionais:</span><br>- Arco de metal: torna seu headset praticamente indestrutivel.<br>- O headband flexivel promove conforto e se adequa a qualquer usuario.<br>- Drivers de 50mm : graves reforcados, uma realidade sonora ainda maior para o seu jogo.<br>- Microfone omnidirecional: com diminuição de ruído para evitar interferências sonoras externas.<br>- LEDs: headset com luz de led verde decorativa.<br>- Cabo de nylon 2.1 metros: promove maior durabilidade e resistencia ao seu headset.<br><br><span class="destaque">Conteúdo da Embalagem:</span><br>- Headset Warrior<br>- Guia do Usuário<br><br><span class="destaque">Garantia:</span><br>6 meses de garantia<br><br><span class="destaque">Peso:</span><br>
+                        1189 gramas (bruto com embalagem)</span>
+                    </div>
+                </section>
+                <section id="avaliacoes">
+                    <div class="expandir_avaliacoes">
+                        <h2>AVALIAÇÕES DOS CLIENTES</h2>
+                        <img src="images/arrow.svg">
+                    </div>
+                    
+                    <div class="avaliacoes">
+                        <div class="avaliacao_geral">
+                            <span>AVALIAÇÃO GERAL</span>
+                            <div class="em_estrela">
+                                <img src="images/star.svg">
+                                <img src="images/star.svg">
+                                <img src="images/star.svg">
+                                <img src="images/star.svg">
+                                <img src="images/star.svg">
+                            </div>
+                            <div class="em_numero">
+                                <span>5.0</span>
+                            </div>
+                            <span class="qt_avaliacoes">2 AVALIAÇÕES</span>
+                        </div>
+                        <div class="avaliacao">
+                            <div class="info_cliente">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve"><path d="M55,27.5C55,12.337,42.663,0,27.5,0S0,12.337,0,27.5c0,8.009,3.444,15.228,8.926,20.258l-0.026,0.023l0.892,0.752 c0.058,0.049,0.121,0.089,0.179,0.137c0.474,0.393,0.965,0.766,1.465,1.127c0.162,0.117,0.324,0.234,0.489,0.348 c0.534,0.368,1.082,0.717,1.642,1.048c0.122,0.072,0.245,0.142,0.368,0.212c0.613,0.349,1.239,0.678,1.88,0.98 c0.047,0.022,0.095,0.042,0.142,0.064c2.089,0.971,4.319,1.684,6.651,2.105c0.061,0.011,0.122,0.022,0.184,0.033 c0.724,0.125,1.456,0.225,2.197,0.292c0.09,0.008,0.18,0.013,0.271,0.021C25.998,54.961,26.744,55,27.5,55 c0.749,0,1.488-0.039,2.222-0.098c0.093-0.008,0.186-0.013,0.279-0.021c0.735-0.067,1.461-0.164,2.178-0.287 c0.062-0.011,0.125-0.022,0.187-0.034c2.297-0.412,4.495-1.109,6.557-2.055c0.076-0.035,0.153-0.068,0.229-0.104 c0.617-0.29,1.22-0.603,1.811-0.936c0.147-0.083,0.293-0.167,0.439-0.253c0.538-0.317,1.067-0.648,1.581-1 c0.185-0.126,0.366-0.259,0.549-0.391c0.439-0.316,0.87-0.642,1.289-0.983c0.093-0.075,0.193-0.14,0.284-0.217l0.915-0.764 l-0.027-0.023C51.523,42.802,55,35.55,55,27.5z M2,27.5C2,13.439,13.439,2,27.5,2S53,13.439,53,27.5 c0,7.577-3.325,14.389-8.589,19.063c-0.294-0.203-0.59-0.385-0.893-0.537l-8.467-4.233c-0.76-0.38-1.232-1.144-1.232-1.993v-2.957 c0.196-0.242,0.403-0.516,0.617-0.817c1.096-1.548,1.975-3.27,2.616-5.123c1.267-0.602,2.085-1.864,2.085-3.289v-3.545 c0-0.867-0.318-1.708-0.887-2.369v-4.667c0.052-0.519,0.236-3.448-1.883-5.864C34.524,9.065,31.541,8,27.5,8 s-7.024,1.065-8.867,3.168c-2.119,2.416-1.935,5.345-1.883,5.864v4.667c-0.568,0.661-0.887,1.502-0.887,2.369v3.545 c0,1.101,0.494,2.128,1.34,2.821c0.81,3.173,2.477,5.575,3.093,6.389v2.894c0,0.816-0.445,1.566-1.162,1.958l-7.907,4.313 c-0.252,0.137-0.502,0.297-0.752,0.476C5.276,41.792,2,35.022,2,27.5z M42.459,48.132c-0.35,0.254-0.706,0.5-1.067,0.735 c-0.166,0.108-0.331,0.216-0.5,0.321c-0.472,0.292-0.952,0.57-1.442,0.83c-0.108,0.057-0.217,0.111-0.326,0.167 c-1.126,0.577-2.291,1.073-3.488,1.476c-0.042,0.014-0.084,0.029-0.127,0.043c-0.627,0.208-1.262,0.393-1.904,0.552 c-0.002,0-0.004,0.001-0.006,0.001c-0.648,0.16-1.304,0.293-1.964,0.402c-0.018,0.003-0.036,0.007-0.054,0.01 c-0.621,0.101-1.247,0.174-1.875,0.229c-0.111,0.01-0.222,0.017-0.334,0.025C28.751,52.97,28.127,53,27.5,53 c-0.634,0-1.266-0.031-1.895-0.078c-0.109-0.008-0.218-0.015-0.326-0.025c-0.634-0.056-1.265-0.131-1.89-0.233 c-0.028-0.005-0.056-0.01-0.084-0.015c-1.322-0.221-2.623-0.546-3.89-0.971c-0.039-0.013-0.079-0.027-0.118-0.04 c-0.629-0.214-1.251-0.451-1.862-0.713c-0.004-0.002-0.009-0.004-0.013-0.006c-0.578-0.249-1.145-0.525-1.705-0.816 c-0.073-0.038-0.147-0.074-0.219-0.113c-0.511-0.273-1.011-0.568-1.504-0.876c-0.146-0.092-0.291-0.185-0.435-0.279 c-0.454-0.297-0.902-0.606-1.338-0.933c-0.045-0.034-0.088-0.07-0.133-0.104c0.032-0.018,0.064-0.036,0.096-0.054l7.907-4.313 c1.36-0.742,2.205-2.165,2.205-3.714l-0.001-3.602l-0.23-0.278c-0.022-0.025-2.184-2.655-3.001-6.216l-0.091-0.396l-0.341-0.221 c-0.481-0.311-0.769-0.831-0.769-1.392v-3.545c0-0.465,0.197-0.898,0.557-1.223l0.33-0.298v-5.57l-0.009-0.131 c-0.003-0.024-0.298-2.429,1.396-4.36C21.583,10.837,24.061,10,27.5,10c3.426,0,5.896,0.83,7.346,2.466 c1.692,1.911,1.415,4.361,1.413,4.381l-0.009,5.701l0.33,0.298c0.359,0.324,0.557,0.758,0.557,1.223v3.545 c0,0.713-0.485,1.36-1.181,1.575l-0.497,0.153l-0.16,0.495c-0.59,1.833-1.43,3.526-2.496,5.032c-0.262,0.37-0.517,0.698-0.736,0.949 l-0.248,0.283V39.8c0,1.612,0.896,3.062,2.338,3.782l8.467,4.233c0.054,0.027,0.107,0.055,0.16,0.083 C42.677,47.979,42.567,48.054,42.459,48.132z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <span>Kauã dos Reis Akamine Ribeiro</span>
+                                <span class="data">01/01/2022</span>
+                                
+                            </div>
+                            <div class="texto_avaliacao">
+                                <div class="estrelas">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                </div>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper fermentum varius. Maecenas sed vulputate sem. Sed efficitur lacus a nulla pulvinar convallis. Nulla quis nimenu3 erat. Vestibulum tincidunt tempus consequat. Mauris convallis blandit mattis. Vivamus bibendum ante id risus vulputate, vitae lacinia est maximus. In venenatis nimenu3 eu molestie viverra.</span>
+                            </div>
+                        </div>
+                        <div class="avaliacao">
+                            <div class="info_cliente">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve"><path d="M55,27.5C55,12.337,42.663,0,27.5,0S0,12.337,0,27.5c0,8.009,3.444,15.228,8.926,20.258l-0.026,0.023l0.892,0.752 c0.058,0.049,0.121,0.089,0.179,0.137c0.474,0.393,0.965,0.766,1.465,1.127c0.162,0.117,0.324,0.234,0.489,0.348 c0.534,0.368,1.082,0.717,1.642,1.048c0.122,0.072,0.245,0.142,0.368,0.212c0.613,0.349,1.239,0.678,1.88,0.98 c0.047,0.022,0.095,0.042,0.142,0.064c2.089,0.971,4.319,1.684,6.651,2.105c0.061,0.011,0.122,0.022,0.184,0.033 c0.724,0.125,1.456,0.225,2.197,0.292c0.09,0.008,0.18,0.013,0.271,0.021C25.998,54.961,26.744,55,27.5,55 c0.749,0,1.488-0.039,2.222-0.098c0.093-0.008,0.186-0.013,0.279-0.021c0.735-0.067,1.461-0.164,2.178-0.287 c0.062-0.011,0.125-0.022,0.187-0.034c2.297-0.412,4.495-1.109,6.557-2.055c0.076-0.035,0.153-0.068,0.229-0.104 c0.617-0.29,1.22-0.603,1.811-0.936c0.147-0.083,0.293-0.167,0.439-0.253c0.538-0.317,1.067-0.648,1.581-1 c0.185-0.126,0.366-0.259,0.549-0.391c0.439-0.316,0.87-0.642,1.289-0.983c0.093-0.075,0.193-0.14,0.284-0.217l0.915-0.764 l-0.027-0.023C51.523,42.802,55,35.55,55,27.5z M2,27.5C2,13.439,13.439,2,27.5,2S53,13.439,53,27.5 c0,7.577-3.325,14.389-8.589,19.063c-0.294-0.203-0.59-0.385-0.893-0.537l-8.467-4.233c-0.76-0.38-1.232-1.144-1.232-1.993v-2.957 c0.196-0.242,0.403-0.516,0.617-0.817c1.096-1.548,1.975-3.27,2.616-5.123c1.267-0.602,2.085-1.864,2.085-3.289v-3.545 c0-0.867-0.318-1.708-0.887-2.369v-4.667c0.052-0.519,0.236-3.448-1.883-5.864C34.524,9.065,31.541,8,27.5,8 s-7.024,1.065-8.867,3.168c-2.119,2.416-1.935,5.345-1.883,5.864v4.667c-0.568,0.661-0.887,1.502-0.887,2.369v3.545 c0,1.101,0.494,2.128,1.34,2.821c0.81,3.173,2.477,5.575,3.093,6.389v2.894c0,0.816-0.445,1.566-1.162,1.958l-7.907,4.313 c-0.252,0.137-0.502,0.297-0.752,0.476C5.276,41.792,2,35.022,2,27.5z M42.459,48.132c-0.35,0.254-0.706,0.5-1.067,0.735 c-0.166,0.108-0.331,0.216-0.5,0.321c-0.472,0.292-0.952,0.57-1.442,0.83c-0.108,0.057-0.217,0.111-0.326,0.167 c-1.126,0.577-2.291,1.073-3.488,1.476c-0.042,0.014-0.084,0.029-0.127,0.043c-0.627,0.208-1.262,0.393-1.904,0.552 c-0.002,0-0.004,0.001-0.006,0.001c-0.648,0.16-1.304,0.293-1.964,0.402c-0.018,0.003-0.036,0.007-0.054,0.01 c-0.621,0.101-1.247,0.174-1.875,0.229c-0.111,0.01-0.222,0.017-0.334,0.025C28.751,52.97,28.127,53,27.5,53 c-0.634,0-1.266-0.031-1.895-0.078c-0.109-0.008-0.218-0.015-0.326-0.025c-0.634-0.056-1.265-0.131-1.89-0.233 c-0.028-0.005-0.056-0.01-0.084-0.015c-1.322-0.221-2.623-0.546-3.89-0.971c-0.039-0.013-0.079-0.027-0.118-0.04 c-0.629-0.214-1.251-0.451-1.862-0.713c-0.004-0.002-0.009-0.004-0.013-0.006c-0.578-0.249-1.145-0.525-1.705-0.816 c-0.073-0.038-0.147-0.074-0.219-0.113c-0.511-0.273-1.011-0.568-1.504-0.876c-0.146-0.092-0.291-0.185-0.435-0.279 c-0.454-0.297-0.902-0.606-1.338-0.933c-0.045-0.034-0.088-0.07-0.133-0.104c0.032-0.018,0.064-0.036,0.096-0.054l7.907-4.313 c1.36-0.742,2.205-2.165,2.205-3.714l-0.001-3.602l-0.23-0.278c-0.022-0.025-2.184-2.655-3.001-6.216l-0.091-0.396l-0.341-0.221 c-0.481-0.311-0.769-0.831-0.769-1.392v-3.545c0-0.465,0.197-0.898,0.557-1.223l0.33-0.298v-5.57l-0.009-0.131 c-0.003-0.024-0.298-2.429,1.396-4.36C21.583,10.837,24.061,10,27.5,10c3.426,0,5.896,0.83,7.346,2.466 c1.692,1.911,1.415,4.361,1.413,4.381l-0.009,5.701l0.33,0.298c0.359,0.324,0.557,0.758,0.557,1.223v3.545 c0,0.713-0.485,1.36-1.181,1.575l-0.497,0.153l-0.16,0.495c-0.59,1.833-1.43,3.526-2.496,5.032c-0.262,0.37-0.517,0.698-0.736,0.949 l-0.248,0.283V39.8c0,1.612,0.896,3.062,2.338,3.782l8.467,4.233c0.054,0.027,0.107,0.055,0.16,0.083 C42.677,47.979,42.567,48.054,42.459,48.132z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <span>Kauã dos Reis Akamine Ribeiro</span>
+                                <span class="data">01/01/2022</span>
+                            </div>
+                            <div class="texto_avaliacao">
+                                <div class="estrelas">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                    <img src="images/star.svg">
+                                </div>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper fermentum varius. Maecenas sed vulputate sem. Sed efficitur lacus a nulla pulvinar convallis. Nulla quis nimenu3 erat. Vestibulum tincidunt tempus consequat. Mauris convallis blandit mattis. Vivamus bibendum ante id risus vulputate, vitae lacinia est maximus. In venenatis nimenu3 eu molestie viverra.</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="perguntas">
+                    <div class="expandir_perguntas">
+                        <h2>PERGUNTAS DOS CLIENTES</h2>
+                        <img src="images/arrow.svg">
+                    </div>
+                    <div class="perguntas_e_respostas">
+                        <div class="qt_perguntas">
+                            <span>2 PERGUNTAS</span>
+                            <span>2 RESPONDIDAS</span>
+                        </div>
+                        <div class="area_perguntas">
+                            <div class="info_cliente">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve"><path d="M55,27.5C55,12.337,42.663,0,27.5,0S0,12.337,0,27.5c0,8.009,3.444,15.228,8.926,20.258l-0.026,0.023l0.892,0.752 c0.058,0.049,0.121,0.089,0.179,0.137c0.474,0.393,0.965,0.766,1.465,1.127c0.162,0.117,0.324,0.234,0.489,0.348 c0.534,0.368,1.082,0.717,1.642,1.048c0.122,0.072,0.245,0.142,0.368,0.212c0.613,0.349,1.239,0.678,1.88,0.98 c0.047,0.022,0.095,0.042,0.142,0.064c2.089,0.971,4.319,1.684,6.651,2.105c0.061,0.011,0.122,0.022,0.184,0.033 c0.724,0.125,1.456,0.225,2.197,0.292c0.09,0.008,0.18,0.013,0.271,0.021C25.998,54.961,26.744,55,27.5,55 c0.749,0,1.488-0.039,2.222-0.098c0.093-0.008,0.186-0.013,0.279-0.021c0.735-0.067,1.461-0.164,2.178-0.287 c0.062-0.011,0.125-0.022,0.187-0.034c2.297-0.412,4.495-1.109,6.557-2.055c0.076-0.035,0.153-0.068,0.229-0.104 c0.617-0.29,1.22-0.603,1.811-0.936c0.147-0.083,0.293-0.167,0.439-0.253c0.538-0.317,1.067-0.648,1.581-1 c0.185-0.126,0.366-0.259,0.549-0.391c0.439-0.316,0.87-0.642,1.289-0.983c0.093-0.075,0.193-0.14,0.284-0.217l0.915-0.764 l-0.027-0.023C51.523,42.802,55,35.55,55,27.5z M2,27.5C2,13.439,13.439,2,27.5,2S53,13.439,53,27.5 c0,7.577-3.325,14.389-8.589,19.063c-0.294-0.203-0.59-0.385-0.893-0.537l-8.467-4.233c-0.76-0.38-1.232-1.144-1.232-1.993v-2.957 c0.196-0.242,0.403-0.516,0.617-0.817c1.096-1.548,1.975-3.27,2.616-5.123c1.267-0.602,2.085-1.864,2.085-3.289v-3.545 c0-0.867-0.318-1.708-0.887-2.369v-4.667c0.052-0.519,0.236-3.448-1.883-5.864C34.524,9.065,31.541,8,27.5,8 s-7.024,1.065-8.867,3.168c-2.119,2.416-1.935,5.345-1.883,5.864v4.667c-0.568,0.661-0.887,1.502-0.887,2.369v3.545 c0,1.101,0.494,2.128,1.34,2.821c0.81,3.173,2.477,5.575,3.093,6.389v2.894c0,0.816-0.445,1.566-1.162,1.958l-7.907,4.313 c-0.252,0.137-0.502,0.297-0.752,0.476C5.276,41.792,2,35.022,2,27.5z M42.459,48.132c-0.35,0.254-0.706,0.5-1.067,0.735 c-0.166,0.108-0.331,0.216-0.5,0.321c-0.472,0.292-0.952,0.57-1.442,0.83c-0.108,0.057-0.217,0.111-0.326,0.167 c-1.126,0.577-2.291,1.073-3.488,1.476c-0.042,0.014-0.084,0.029-0.127,0.043c-0.627,0.208-1.262,0.393-1.904,0.552 c-0.002,0-0.004,0.001-0.006,0.001c-0.648,0.16-1.304,0.293-1.964,0.402c-0.018,0.003-0.036,0.007-0.054,0.01 c-0.621,0.101-1.247,0.174-1.875,0.229c-0.111,0.01-0.222,0.017-0.334,0.025C28.751,52.97,28.127,53,27.5,53 c-0.634,0-1.266-0.031-1.895-0.078c-0.109-0.008-0.218-0.015-0.326-0.025c-0.634-0.056-1.265-0.131-1.89-0.233 c-0.028-0.005-0.056-0.01-0.084-0.015c-1.322-0.221-2.623-0.546-3.89-0.971c-0.039-0.013-0.079-0.027-0.118-0.04 c-0.629-0.214-1.251-0.451-1.862-0.713c-0.004-0.002-0.009-0.004-0.013-0.006c-0.578-0.249-1.145-0.525-1.705-0.816 c-0.073-0.038-0.147-0.074-0.219-0.113c-0.511-0.273-1.011-0.568-1.504-0.876c-0.146-0.092-0.291-0.185-0.435-0.279 c-0.454-0.297-0.902-0.606-1.338-0.933c-0.045-0.034-0.088-0.07-0.133-0.104c0.032-0.018,0.064-0.036,0.096-0.054l7.907-4.313 c1.36-0.742,2.205-2.165,2.205-3.714l-0.001-3.602l-0.23-0.278c-0.022-0.025-2.184-2.655-3.001-6.216l-0.091-0.396l-0.341-0.221 c-0.481-0.311-0.769-0.831-0.769-1.392v-3.545c0-0.465,0.197-0.898,0.557-1.223l0.33-0.298v-5.57l-0.009-0.131 c-0.003-0.024-0.298-2.429,1.396-4.36C21.583,10.837,24.061,10,27.5,10c3.426,0,5.896,0.83,7.346,2.466 c1.692,1.911,1.415,4.361,1.413,4.381l-0.009,5.701l0.33,0.298c0.359,0.324,0.557,0.758,0.557,1.223v3.545 c0,0.713-0.485,1.36-1.181,1.575l-0.497,0.153l-0.16,0.495c-0.59,1.833-1.43,3.526-2.496,5.032c-0.262,0.37-0.517,0.698-0.736,0.949 l-0.248,0.283V39.8c0,1.612,0.896,3.062,2.338,3.782l8.467,4.233c0.054,0.027,0.107,0.055,0.16,0.083 C42.677,47.979,42.567,48.054,42.459,48.132z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <span>Kauã dos Reis Akamine Ribeiro</span>
+                                <span class="data">01/01/2022</span>
+                            </div>
+                            <div class="perguntas_respostas">
+                                <div class="pergunta">
+                                    <div class="oque">
+                                        <span>PERGUNTA:</span>
+                                    </div>
+                                    <div class="texto_pergunta">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper fermentum varius.</span>
+                                    </div>
+                                </div>
+                                <div class="resposta">
+                                    <div class="oque">
+                                        <span>RESPOSTA:</span>
+                                    </div>
+                                    <div class="texto_resposta">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper fermentum varius.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="area_perguntas">
+                            <div class="info_cliente">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve"><path d="M55,27.5C55,12.337,42.663,0,27.5,0S0,12.337,0,27.5c0,8.009,3.444,15.228,8.926,20.258l-0.026,0.023l0.892,0.752 c0.058,0.049,0.121,0.089,0.179,0.137c0.474,0.393,0.965,0.766,1.465,1.127c0.162,0.117,0.324,0.234,0.489,0.348 c0.534,0.368,1.082,0.717,1.642,1.048c0.122,0.072,0.245,0.142,0.368,0.212c0.613,0.349,1.239,0.678,1.88,0.98 c0.047,0.022,0.095,0.042,0.142,0.064c2.089,0.971,4.319,1.684,6.651,2.105c0.061,0.011,0.122,0.022,0.184,0.033 c0.724,0.125,1.456,0.225,2.197,0.292c0.09,0.008,0.18,0.013,0.271,0.021C25.998,54.961,26.744,55,27.5,55 c0.749,0,1.488-0.039,2.222-0.098c0.093-0.008,0.186-0.013,0.279-0.021c0.735-0.067,1.461-0.164,2.178-0.287 c0.062-0.011,0.125-0.022,0.187-0.034c2.297-0.412,4.495-1.109,6.557-2.055c0.076-0.035,0.153-0.068,0.229-0.104 c0.617-0.29,1.22-0.603,1.811-0.936c0.147-0.083,0.293-0.167,0.439-0.253c0.538-0.317,1.067-0.648,1.581-1 c0.185-0.126,0.366-0.259,0.549-0.391c0.439-0.316,0.87-0.642,1.289-0.983c0.093-0.075,0.193-0.14,0.284-0.217l0.915-0.764 l-0.027-0.023C51.523,42.802,55,35.55,55,27.5z M2,27.5C2,13.439,13.439,2,27.5,2S53,13.439,53,27.5 c0,7.577-3.325,14.389-8.589,19.063c-0.294-0.203-0.59-0.385-0.893-0.537l-8.467-4.233c-0.76-0.38-1.232-1.144-1.232-1.993v-2.957 c0.196-0.242,0.403-0.516,0.617-0.817c1.096-1.548,1.975-3.27,2.616-5.123c1.267-0.602,2.085-1.864,2.085-3.289v-3.545 c0-0.867-0.318-1.708-0.887-2.369v-4.667c0.052-0.519,0.236-3.448-1.883-5.864C34.524,9.065,31.541,8,27.5,8 s-7.024,1.065-8.867,3.168c-2.119,2.416-1.935,5.345-1.883,5.864v4.667c-0.568,0.661-0.887,1.502-0.887,2.369v3.545 c0,1.101,0.494,2.128,1.34,2.821c0.81,3.173,2.477,5.575,3.093,6.389v2.894c0,0.816-0.445,1.566-1.162,1.958l-7.907,4.313 c-0.252,0.137-0.502,0.297-0.752,0.476C5.276,41.792,2,35.022,2,27.5z M42.459,48.132c-0.35,0.254-0.706,0.5-1.067,0.735 c-0.166,0.108-0.331,0.216-0.5,0.321c-0.472,0.292-0.952,0.57-1.442,0.83c-0.108,0.057-0.217,0.111-0.326,0.167 c-1.126,0.577-2.291,1.073-3.488,1.476c-0.042,0.014-0.084,0.029-0.127,0.043c-0.627,0.208-1.262,0.393-1.904,0.552 c-0.002,0-0.004,0.001-0.006,0.001c-0.648,0.16-1.304,0.293-1.964,0.402c-0.018,0.003-0.036,0.007-0.054,0.01 c-0.621,0.101-1.247,0.174-1.875,0.229c-0.111,0.01-0.222,0.017-0.334,0.025C28.751,52.97,28.127,53,27.5,53 c-0.634,0-1.266-0.031-1.895-0.078c-0.109-0.008-0.218-0.015-0.326-0.025c-0.634-0.056-1.265-0.131-1.89-0.233 c-0.028-0.005-0.056-0.01-0.084-0.015c-1.322-0.221-2.623-0.546-3.89-0.971c-0.039-0.013-0.079-0.027-0.118-0.04 c-0.629-0.214-1.251-0.451-1.862-0.713c-0.004-0.002-0.009-0.004-0.013-0.006c-0.578-0.249-1.145-0.525-1.705-0.816 c-0.073-0.038-0.147-0.074-0.219-0.113c-0.511-0.273-1.011-0.568-1.504-0.876c-0.146-0.092-0.291-0.185-0.435-0.279 c-0.454-0.297-0.902-0.606-1.338-0.933c-0.045-0.034-0.088-0.07-0.133-0.104c0.032-0.018,0.064-0.036,0.096-0.054l7.907-4.313 c1.36-0.742,2.205-2.165,2.205-3.714l-0.001-3.602l-0.23-0.278c-0.022-0.025-2.184-2.655-3.001-6.216l-0.091-0.396l-0.341-0.221 c-0.481-0.311-0.769-0.831-0.769-1.392v-3.545c0-0.465,0.197-0.898,0.557-1.223l0.33-0.298v-5.57l-0.009-0.131 c-0.003-0.024-0.298-2.429,1.396-4.36C21.583,10.837,24.061,10,27.5,10c3.426,0,5.896,0.83,7.346,2.466 c1.692,1.911,1.415,4.361,1.413,4.381l-0.009,5.701l0.33,0.298c0.359,0.324,0.557,0.758,0.557,1.223v3.545 c0,0.713-0.485,1.36-1.181,1.575l-0.497,0.153l-0.16,0.495c-0.59,1.833-1.43,3.526-2.496,5.032c-0.262,0.37-0.517,0.698-0.736,0.949 l-0.248,0.283V39.8c0,1.612,0.896,3.062,2.338,3.782l8.467,4.233c0.054,0.027,0.107,0.055,0.16,0.083 C42.677,47.979,42.567,48.054,42.459,48.132z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                                <span>Kauã dos Reis Akamine Ribeiro</span>
+                                <span class="data">01/01/2022</span>
+                            </div>
+                            <div class="perguntas_respostas">
+                                <div class="pergunta">
+                                    <div class="oque">
+                                        <span>PERGUNTA:</span>
+                                    </div>
+                                    <div class="texto_pergunta">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper fermentum varius. Maecenas sed vulputate sem. Sed efficitur lacus a nulla pulvinar convallis. Nulla quis nimenu3 erat. Vestibulum tincidunt tempus consequat. Mauris convallis blandit mattis. Vivamus bibendum ante id risus vulputate, vitae lacinia est maximus. In venenatis nimenu3 eu molestie viverra.</span>
+                                    </div>
+                                </div>
+                                <div class="resposta">
+                                    <div class="oque">
+                                        <span>RESPOSTA:</span>
+                                    </div>
+                                    <div class="texto_resposta">
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper fermentum varius.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_um">
+                <ul>
+                    <li class="topico"><span>INSTITUCIONAL</span>
+                        <ul>
+                            <li class="subtopico"><a href="">Sobre a Drar Store</a></li>
+                            <li class="subtopico"><a href="">Política de Privacidade</a></li>
+                            <li class="subtopico"><a href="">Termos de Venda</a></li>
+                            <li class="subtopico"><a href="">Trabalhe conosco</a></li>
+                            <li class="subtopico"><a href="">Prêmios</a></li>
+                            <li class="subtopico"><a href="">Eventos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="topico"><span>DEPARTAMENTOS</span>
+                        <ul>
+                            <li class="subtopico"><a href="">Hardwares</a></li>
+                            <li class="subtopico"><a href="">Periféricos</a></li>
+                            <li class="subtopico"><a href="">Computadores</a></li>
+                            <li class="subtopico"><a href="">Celulares</a></li>
+                            <li class="subtopico"><a href="">Gabinetes</a></li>
+                            <li class="subtopico"><a href="">Monitores</a></li>
+                            <li class="subtopico"><a href="">Cadeiras</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="topico"><span>AJUDA</span>
+                        <ul>
+                            <li class="subtopico"><a href="">Como comprar</a></li>
+                            <li class="subtopico"><a href="">Formas de Pagamento</a></li>
+                            <li class="subtopico"><a href="">Trocas, devoluções e reembolsos</a></li>
+                            <li class="subtopico"><a href="">Frete e Entrega</a></li>
+                            <li class="subtopico"><a href="">Garantia</a></li>
+                            <li class="subtopico"><a href="">Fale conosco</a></li>
+                            <li class="subtopico"><a href="">SAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="topico"><span>CLIENTE</span>
+                        <ul>
+                            <li class="subtopico"><a href="">Minha Conta</a></li>
+                            <li class="subtopico"><a href="">Meus Pedidos</a></li>
+                            <li class="subtopico"><a href="">Descontos</a></li>
+                            <li class="subtopico"><a href="">Cartão Kabum</a></li>
+                            <li class="subtopico"><a href="">Garantia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_dois">
+                <span>SIGA-NOS EM NOSSAS REDES</span>
+                <div class="redes">
+                    <a href=""><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 408.788 408.788" style="enable-background:new 0 0 408.788 408.788;" xml:space="preserve" class="face"><path d="M353.701,0H55.087C24.665,0,0.002,24.662,0.002,55.085v298.616c0,30.423,24.662,55.085,55.085,55.085 h147.275l0.251-146.078h-37.951c-4.932,0-8.935-3.988-8.954-8.92l-0.182-47.087c-0.019-4.959,3.996-8.989,8.955-8.989h37.882 v-45.498c0-52.8,32.247-81.55,79.348-81.55h38.65c4.945,0,8.955,4.009,8.955,8.955v39.704c0,4.944-4.007,8.952-8.95,8.955 l-23.719,0.011c-25.615,0-30.575,12.172-30.575,30.035v39.389h56.285c5.363,0,9.524,4.683,8.892,10.009l-5.581,47.087 c-0.534,4.506-4.355,7.901-8.892,7.901h-50.453l-0.251,146.078h87.631c30.422,0,55.084-24.662,55.084-55.084V55.085 C408.786,24.662,384.124,0,353.701,0z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></a>
+                    <a href=""><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"/><path fill-rule="nonzero" d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"/></g></svg></a>
+
+                    <a href=""><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve"><g id="XMLID_826_"><path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73 c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783 c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598 C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467 c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977 c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889 c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597 c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895 c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367 c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998 C307.394,57.037,305.009,56.486,302.973,57.388z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></a>
+
+                    <a href=""><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" fill="#ac74fc" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve"><g id="XMLID_822_"><path id="XMLID_823_" d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938 C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527 C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991 c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764 c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861 C204.394,157.263,202.325,160.684,199.021,162.41z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></a>
                 </div>
             </div>
-        </section>
+            <div class="footer_tres">
+                <div class="logo">
+                    <span>Drar Store</span>
+                </div>
+                <ul>
+                    <li class="topico"><span>ATENDIMENTO</span>
+                        <ul>
+                            <li class="subtopico"><span>Horário de Atendimento: 06:00 às 18:00 - Segunda à Sábado</span></li>
+                            <li class="subtopico"><span>Endereço: Avenida Monteiro Lobato, 8000 - Balneário Itaóca, Mongaguá - SP, 11730-000</span></li>
+                            <li class="subtopico"><span>Telefone: 11 99876-5432</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
         <img class="heart1" src="images/heart_verde.svg">
         <img class="heart2" src="images/heart_colorido.svg">
     </body>
