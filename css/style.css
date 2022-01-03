@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff007f;
+    background-color: #0930b5;
     height: 5vw;
 }
 .botao_menu{
@@ -22,7 +22,7 @@ body{
 }
 .barra{
     display: none;
-    background-color: #FFF;
+    background-color: #ff007f;
     width: 7vw;
     height: 1vw;
 }
@@ -32,7 +32,7 @@ body{
 .logo{
     font-family: 'Pushster', cursive;
     font-size: 3.5vw;
-    color: white;
+    color: #ff007f;
     margin-right: 1.25vw;
 }
 .pesquisa{
@@ -91,12 +91,12 @@ body{
 }
 .conta span{
     margin-left: 0.5vw;
-    color: #FFF;
+    color: #ff007f;
     font-size: 0.85vw;
 }
 .conta a{
     text-decoration: none;
-    color: #FFF;
+    color: #ff007f;
 }
 .conta a:hover{
     text-decoration: underline;
@@ -142,7 +142,7 @@ body{
     padding: 1.05vw 0.05vw;
 }
 .cabecalho ul li a {
-    background-color: #0098b3;
+    background-color: #0930b5;
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -495,6 +495,7 @@ body{
     display: flex;
 }
 .info_cliente{
+    color: #ff007f;
     padding-right: 2.2vw;
     border-right: 0.2vw solid #FFF;
     width: 8.45vw;
@@ -509,6 +510,7 @@ body{
     padding: 0.15vw 0;
 }
 .info_cliente .data{
+    color: #00a6c3;
     font-size: 0.75vw;
 }
 .info_cliente svg{
@@ -595,6 +597,7 @@ body{
 .oque{
     font-weight: 600;
     margin-right: 1vw;
+    color: #ff007f;
 }
 footer{
     display: flex;
@@ -721,12 +724,13 @@ svg.face{
 .no_mobile.active .area_visivel{
     display: flex;
     flex-direction: column;
-    background-color: #ff007f;
+    background-color: #021d78;
     width: 85%;
     height: 100%;
 }
 .no_mobile.active .bloco_um{
-    padding: 7vw;
+    padding: 3vw;
+    padding-top: 7vw;
     display: flex;
     height: max-content;
     width: 100%;
@@ -734,7 +738,7 @@ svg.face{
 }
 .no_mobile.active .conta{
     position: relative;
-    top: -3vw;
+    top: -2vw;
     height: max-content;
     padding: 0;
     display: flex;
@@ -747,7 +751,6 @@ svg.face{
     margin-right: 1vw;
 }
 .no_mobile.active .conta span{
-    margin-left: 0.2vw;
     color: #FFF;
     font-size: 6vw;
 }
@@ -761,31 +764,35 @@ svg.face{
 .no_mobile.active .fechar_menu img{
     width: 12vw;
 }
+.no_mobile.active .bloco_dois{
+    display: flex;
+    flex-direction: column;
+}
 .no_mobile.active .pesquisa{
-    margin-left: 0;
+    align-self: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #FFF;
     border-radius: 0;
-    padding: 0 2vw;
-    margin-bottom: 10vw;
+    margin: 10vw 2vw;
+    width: 95%;
+    height: 60%;
 }
 .no_mobile.active input{
     color: #0098b3;
-    height: 9vh;
     margin: 0.2vw;
     padding: 0.2vw;
     font-size: 6vw;
+    height: 100%;
     width: 85%;
     border: none;
 }
 .no_mobile.active svg{
     cursor: pointer;
-    width: 10vw;
-    height: 10vw;
-    padding: 0;
-    margin: 1vw;
+    width: 15%;
+    height: 100%;
+    padding: 1.5vw;
     border-radius: 0;
     border: 0 solid #FFF;
 }
@@ -793,12 +800,13 @@ svg.face{
     border-bottom: 0 solid #FFF;
     border-top: 0 solid #FFF;
     border-right: 0 solid #FFF;
-    background-color: #FFF;
+    background-color: #ff007f;
 }
 .no_mobile.active svg:hover path{
-    fill:#ff007f;
+    fill:#FFF;
 }
 .no_mobile.active ul {
+    margin-top: 10vw;
     cursor: pointer;
     z-index: 10;
     font-weight: bold;
@@ -808,15 +816,15 @@ svg.face{
     list-style: none;
 }
 .no_mobile.active ul li {
-    text-align: center;
+    text-align: left;
     position: relative;
-    width: 42.6vw;
+    width: 42.5vw;
 }
 .no_mobile.active li ul {
     position: absolute;
     left: 0px;
-    top: 8.5vw;
-    display: none;
+    top: 8.4vw;
+    display: block;
 }
 .no_mobile.active .menu2 li{
     font-size: 4.65vw;
@@ -826,9 +834,9 @@ svg.face{
 }
 .no_mobile.active .menu1 .link{
     padding: 1.05vw 0.05vw;
+    padding-left: 1vw;
 }
 .no_mobile.active ul li a {
-    background-color: #0098b3;
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -840,8 +848,11 @@ svg.face{
     color: #ff007f;
 }
 .no_mobile.active .menu4 .menu5{
-    top: -8.75vw;
+    top: -8.4vw;
     left: 42.5vw;
+}
+.no_mobile.active .menu3 .menu4{
+    display: none;
 }
 .no_mobile.active .menu3:hover .menu4{
     display: block;
