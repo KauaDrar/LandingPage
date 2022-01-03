@@ -734,13 +734,13 @@ svg.face{
     margin: 0;
 }
 .no_mobile.active .conta img{
-    width: 30vw;
-    margin-right: 2vw;
+    width: 15vw;
+    margin-right: 1vw;
 }
 .no_mobile.active .conta span{
-    margin-left: 0.5vw;
+    margin-left: 0.2vw;
     color: #FFF;
-    font-size: 10vw;
+    font-size: 6vw;
 }
 .no_mobile.active .conta a{
     text-decoration: none;
@@ -750,7 +750,7 @@ svg.face{
     text-decoration: underline;
 }
 .no_mobile.active .fechar_menu img{
-    width: 20vw;
+    width: 12vw;
 }
 .no_mobile.active .pesquisa{
     margin-left: 0;
@@ -767,7 +767,7 @@ svg.face{
     height: 9vh;
     margin: 0.2vw;
     padding: 0.2vw;
-    font-size: 10vw;
+    font-size: 6vw;
     width: 85%;
     border: none;
 }
@@ -793,7 +793,7 @@ svg.face{
     cursor: pointer;
     z-index: 10;
     font-weight: bold;
-    font-size: 7.5vw;
+    font-size: 4.75vw;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -801,16 +801,16 @@ svg.face{
 .no_mobile.active ul li {
     text-align: center;
     position: relative;
-    width: 70vw;
+    width: 43vw;
 }
 .no_mobile.active li ul {
     position: absolute;
     left: 0px;
-    top: 11.8vw;
+    top: 8.6vw;
     display: none;
 }
 .no_mobile.active .menu2 li{
-    font-size: 7.5vw;
+    font-size: 4.75vw;
 }
 .no_mobile.active .menu1 .menu2{
     padding: 0.8vw 0;
@@ -831,8 +831,8 @@ svg.face{
     color: #489b89;
 }
 .no_mobile.active .menu4 .menu5{
-    top: -12vw;
-    left: 70vw;
+    top: -8.75vw;
+    left: 43vw;
 }
 .no_mobile.active .menu3:hover .menu4{
     display: block;
