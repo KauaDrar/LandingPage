@@ -228,7 +228,7 @@ body{
 #imagem{
     margin-bottom: 0.5vw;
     overflow: hidden;
-    width: 34.5vw;
+    width: 35vw;
 }
 #imagem img{
     transform-origin: center center;
@@ -247,11 +247,15 @@ body{
 }
 .preco{
     display: block;
-    font-weight: 600;
-    font-size: 3.10vw;
+    font-weight: 700;
+    font-size: 3.5vw;
     color: #ff007f;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #00a6c3;
+    filter: drop-shadow(0 0 0.15vw #00a6c3);
+    -webkit-filter: drop-shadow(0 0 0.15vw #00a6c3);
+    -moz-filter: drop-shadow(0 0 0.15vw #00a6c3);
+    -o-filter: drop-shadow(0 0 0.15vw #00a6c3);
 }
 .preco_detalhe{
     display: block;
@@ -307,6 +311,7 @@ body{
     border-radius: 1vw;
     cursor: pointer;
     padding: 0.4vw;
+    filter: drop-shadow(0 0 0.5vw #ff0080);
 }
 .comprar span{
     font-weight: 600;
@@ -1015,6 +1020,10 @@ svg.face{
 }
 .no_mobile .preco{
     font-size: 12vw;
+    filter: drop-shadow(0 0 1vw #00a6c3);
+    -webkit-filter: drop-shadow(0 0 1vw #00a6c3);
+    -moz-filter: drop-shadow(0 0 1vw #00a6c3);
+    -o-filter: drop-shadow(0 0 1vw #00a6c3);
 }
 .no_mobile .preco_detalhe{
     margin-left: 2vw;
@@ -1027,6 +1036,10 @@ svg.face{
     outline: 0.5vw solid #ff007f;
     border-radius: 1vw;
     padding: 1vw;
+    filter: drop-shadow(0 0 2.5vw #ff007f);
+    -webkit-filter: drop-shadow(0 0 2.5vw #ff007f);
+    -moz-filter: drop-shadow(0 0 2.5vw #ff007f);
+    -o-filter: drop-shadow(0 0 2.5vw #ff007f);
 }
 .no_mobile .comprar span{
     font-weight: 600;
