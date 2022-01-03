@@ -1036,10 +1036,10 @@ svg.face{
     outline: 0.5vw solid #ff007f;
     border-radius: 1vw;
     padding: 1vw;
-    filter: drop-shadow(0 0 2.5vw #ff007f);
-    -webkit-filter: drop-shadow(0 0 2.5vw #ff007f);
-    -moz-filter: drop-shadow(0 0 2.5vw #ff007f);
-    -o-filter: drop-shadow(0 0 2.5vw #ff007f);
+    filter: drop-shadow(0 0 4vw #ff007f);
+    -webkit-filter: drop-shadow(0 0 4vw #ff007f);
+    -moz-filter: drop-shadow(0 0 4vw #ff007f);
+    -o-filter: drop-shadow(0 0 4vw #ff007f);
 }
 .no_mobile .comprar span{
     font-weight: 600;
