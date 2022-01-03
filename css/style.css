@@ -4,13 +4,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: #b2c8c4;
+    background-color: #201c1c;
 }
 .cabecalho{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #489b89;
+    background-color: #ff007f;
     height: 5vw;
 }
 .botao_menu{
@@ -44,7 +44,7 @@ body{
     border-radius: 0.5vw;
 }
 .pesquisa input{
-    color: #1f4d41;
+    color: #0098b3;
     height: 100%;
     margin: 0.2vw;
     padding: 0.2vw;
@@ -68,8 +68,11 @@ body{
     border-top: 0.15vw solid #FFF;
     border-right: 0.15vw solid #FFF;
 }
+.pesquisa svg path{
+    fill: #ff007f;
+}
 .pesquisa svg:hover{
-    background-color: #489b89;
+    background-color: #ff007f;
     border-bottom: 0.15vw solid #FFF;
     border-top: 0.15vw solid #FFF;
     border-right: 0.15vw solid #FFF;
@@ -139,7 +142,7 @@ body{
     padding: 1.05vw 0.05vw;
 }
 .cabecalho ul li a {
-    background-color: #1f4d41;
+    background-color: #0098b3;
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -148,7 +151,7 @@ body{
 }
 .cabecalho ul li a:hover{
     background-color: #FFF;
-    color: #489b89;
+    color: #ff007f;
 }
 .menu4 .menu5{
     top: -2.7vw;
@@ -180,16 +183,17 @@ body{
     justify-content: space-between;
 }
 .navegacao span{
+    color: #00a6c3;
     font-weight: 600;
     display: block;
 }
 .navegacao a{
     font-weight: 400;
     text-decoration: none;
-    color: #15362d;
+    color: #00a6c3;
 }
 .navegacao a:hover{
-    color: #306e63;
+    color: #04d9ff;
 }
 #produto{
     margin-top: 2.5vw;
@@ -212,14 +216,14 @@ body{
 }
 .selecao img{
     cursor: pointer;
-    border: 0.15vw solid #306e63;
+    border: 0.15vw solid #04d9ff;
     border-radius: 0.4vw;
     margin: 0 0.5vw;
     margin-bottom: 0.4vw;
     width: 6vw;
 }
 .selecao .img1{
-    border: 0.15vw solid #489b89;
+    border: 0.15vw solid #ff007f;
 }
 #imagem{
     margin-bottom: 0.5vw;
@@ -239,25 +243,25 @@ body{
     margin: 0;
     font-weight: 700;
     font-size: 1.65vw;
-    color: #15362d;
+    color: #00a6c3;
 }
 .preco{
     display: block;
     font-weight: 600;
     font-size: 3.10vw;
-    color: #489b89;
+    color: #ff007f;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #15362d;
+    -webkit-text-stroke-color: #00a6c3;
 }
 .preco_detalhe{
     display: block;
     font-weight: 500;
     font-size: 1.1vw;
-    color: #15362d;
+    color: #00a6c3;
 }
 .detalhes{
     font-size: 0.8vw;
-    color: #15362d;
+    color: #00a6c3;
 }
 .detalhes img{
     width: 1.5vw;
@@ -278,13 +282,13 @@ body{
 .disponibilidade{
     padding: 0.1vw;
     text-align: center;
-    background-color: #489b89;
+    background-color: #ff007f;
     margin-top: 0.35vw;
     font-size: 1vw;
     color: #FFF;
     font-weight: 600;
     width: 16.8vw;
-    border: 2px solid #15362d;
+    border: 2px solid #00a6c3;
 }
 .icones_detalhes img{
     cursor: pointer;
@@ -294,9 +298,9 @@ body{
 .comprar{
     margin-top: 0.8vw;
     width: 18vw;
-    background-color: #489b89;
+    background-color: #ff007f;
     border: 0.25vw solid #FFF;
-    outline: 0.15vw solid #489b89;
+    outline: 0.15vw solid #ff007f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,14 +320,14 @@ body{
 }
 .comprar:hover{
     background-color: #FFF;
-    border: 0.25vw solid #489b89;
+    border: 0.25vw solid #ff007f;
     outline: 0.15vw solid #FFF;
 }
 .comprar:hover span{
-    color: #489b89;
+    color: #ff007f;
 }
 .comprar:hover svg path{
-    fill: #489b89;
+    fill: #ff007f;
 }
 .heart1, .heart2{
     display: none;
@@ -332,12 +336,12 @@ body{
     margin-top: 1.4vw;
 }
 .frete label{
-    color: #15362d;
+    color: #00a6c3;
     font-weight: 500;
     font-size: 0.98vw;
 }
 .frete input{
-    color: #1f4d41;
+    color: #0098b3;
     margin-top: 0.2vw;
     outline: 0;
     font-size: 1.1vw;
@@ -346,9 +350,9 @@ body{
     padding: 0.53vw;
     border-top-left-radius: 0.7vw;
     border-bottom-left-radius: 0.7vw;
-    border-bottom: 0.15vw solid #489b89;
-    border-top: 0.15vw solid #489b89;
-    border-left: 0.15vw solid #489b89;
+    border-bottom: 0.15vw solid #ff007f;
+    border-top: 0.15vw solid #ff007f;
+    border-left: 0.15vw solid #ff007f;
 }
 .cep{
     display: flex;
@@ -357,7 +361,7 @@ body{
 .ok{
     margin-top: 0.2vw;
     cursor: pointer;
-    color: #489b89;
+    color: #ff007f;
     padding: 1.2vw;
     display: flex;
     justify-content: center;
@@ -365,9 +369,9 @@ body{
     width: 2vw;
     height: 2vw;
     font-size: 1.1vw;
-    border-bottom: 0.15vw solid #489b89;
-    border-top: 0.15vw solid #489b89;
-    border-right: 0.15vw solid #489b89;
+    border-bottom: 0.15vw solid #ff007f;
+    border-top: 0.15vw solid #ff007f;
+    border-right: 0.15vw solid #ff007f;
     background-color: #FFF;
     font-weight: 600;
     border-top-right-radius: 0.7vw;
@@ -378,7 +382,7 @@ body{
     border-bottom: 0.15vw solid #FFF;
     border-top: 0.15vw solid #FFF;
     border-right: 0.15vw solid #FFF;
-    background-color: #489b89;
+    background-color: #ff007f;
 }
 #info{
     align-self: center;
@@ -392,7 +396,7 @@ body{
     user-select: none;
 }
 .expandir_info h2{
-    color: #1f4d41;
+    color: #0098b3;
     margin: 0;
     font-weight: 700;
     font-size: 1.5vw;
@@ -406,7 +410,7 @@ body{
 } 
 .texto_infos{
     display: none;
-    color: #15362d;
+    color: #00a6c3;
     margin-top: 0.7vw;
     font-size: 0.825vw;
 }
@@ -425,7 +429,7 @@ body{
     user-select: none;
 }
 .expandir_avaliacoes h2{
-    color: #1f4d41;
+    color: #0098b3;
     margin: 0;
     font-weight: 700;
     font-size: 1.5vw;
@@ -458,7 +462,7 @@ body{
     width: 2vw;
 }
 .avaliacao_geral span{
-    color:#15362d;
+    color:#00a6c3;
 }
 .em_estrela{
     user-select: none;
@@ -469,7 +473,7 @@ body{
 }
 .em_numero span{
     user-select: none;
-    color: #306e63;
+    color: #04d9ff;
     margin: 0;
     line-height: 4.7vw;
     font-size: 5vw;
@@ -480,7 +484,7 @@ body{
     top: -0.45vw;
 }
 .avaliacao{
-    color: #15362d;
+    color: #00a6c3;
     border-top: 0.2vw solid #FFF;
     padding: 1.5vw 0;
     display: flex;
@@ -506,7 +510,7 @@ body{
     width: 6vw;
 }
 .info_cliente svg path{
-    fill: #306e63;
+    fill: #04d9ff;
 }
 .estrelas img{
     width: 1vw;
@@ -530,7 +534,7 @@ body{
     user-select: none;
 }
 .expandir_perguntas h2{
-    color: #1f4d41;
+    color: #0098b3;
     margin: 0;
     font-weight: 700;
     font-size: 1.5vw;
@@ -550,7 +554,7 @@ body{
     border-bottom: 0.2vw solid #FFF;
 }
 .qt_perguntas{
-    color: #15362d;
+    color: #00a6c3;
     align-self: center;
     font-weight: 600;
     font-size: 1.5vw;
@@ -563,7 +567,7 @@ body{
     margin: 2vw;
 }
 .area_perguntas{
-    color: #15362d;
+    color: #00a6c3;
     padding: 1.5vw 0;
     border-top: 0.2vw solid #FFF;
     display: flex;
@@ -595,7 +599,7 @@ footer{
 }
 .footer_um{
     width: 100%;
-    background-color: #15362d;
+    background-color: #021d78;
     padding: 2vw 25%;
     height: max-content;
     display: flex;
@@ -613,7 +617,7 @@ footer{
 }
 .topico{
     font-size: 0.95vw;
-    color: #489b89;
+    color: #ff007f;
 }
 .topico span{
     display: block;
@@ -636,13 +640,13 @@ footer{
     flex-direction: column;
     height: 8vw;
     width: 100%;
-    background-color: #1f4d41;
+    background-color: #0930b5;
     padding: 0 25%;
 }
 .footer_dois svg{
     margin: 0.5vw;
     width: 3.5vw;
-    fill: #489b89;
+    fill: #ff007f;
 }
 .footer_dois svg:hover{
     fill: #FFF;
@@ -666,7 +670,7 @@ svg.face{
     text-align: center;
     height: 14vw;
     width: 100%;
-    background-color: #15362d;
+    background-color: #021d78;
     padding: 2vw 25%;
 }
 .footer_tres ul{
@@ -712,7 +716,7 @@ svg.face{
 .no_mobile.active .area_visivel{
     display: flex;
     flex-direction: column;
-    background-color: #489b89;
+    background-color: #ff007f;
     width: 85%;
     height: 100%;
 }
@@ -763,7 +767,7 @@ svg.face{
     margin-bottom: 10vw;
 }
 .no_mobile.active input{
-    color: #1f4d41;
+    color: #0098b3;
     height: 9vh;
     margin: 0.2vw;
     padding: 0.2vw;
@@ -787,13 +791,13 @@ svg.face{
     background-color: #FFF;
 }
 .no_mobile.active svg:hover path{
-    fill:#489b89;
+    fill:#ff007f;
 }
 .no_mobile.active ul {
     cursor: pointer;
     z-index: 10;
     font-weight: bold;
-    font-size: 4.75vw;
+    font-size: 4.7vw;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -801,16 +805,16 @@ svg.face{
 .no_mobile.active ul li {
     text-align: center;
     position: relative;
-    width: 42.5vw;
+    width: 42.6vw;
 }
 .no_mobile.active li ul {
     position: absolute;
     left: 0px;
-    top: 8.6vw;
+    top: 8.5vw;
     display: none;
 }
 .no_mobile.active .menu2 li{
-    font-size: 4.75vw;
+    font-size: 4.65vw;
 }
 .no_mobile.active .menu1 .menu2{
     padding: 0.8vw 0;
@@ -819,7 +823,7 @@ svg.face{
     padding: 1.05vw 0.05vw;
 }
 .no_mobile.active ul li a {
-    background-color: #1f4d41;
+    background-color: #0098b3;
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -828,7 +832,7 @@ svg.face{
 }
 .no_mobile.active ul li a:hover{
     background-color: #FFF;
-    color: #489b89;
+    color: #ff007f;
 }
 .no_mobile.active .menu4 .menu5{
     top: -8.75vw;
@@ -966,7 +970,7 @@ svg.face{
 }
 .no_mobile .detalhes{
     font-size: 0.8vw;
-    color: #15362d;
+    color: #00a6c3;
     display: flex;
     justify-content:end;
     align-items: center;
@@ -991,14 +995,14 @@ svg.face{
     justify-content: center;
     padding: 0.1vw;
     text-align: center;
-    background-color: #489b89;
+    background-color: #ff007f;
     margin-top: 0.35vw;
     height: 6vw;
     font-size: 3.5vw;
     color: #FFF;
     font-weight: 600;
     width: 57vw;
-    border: 2px solid #15362d;
+    border: 2px solid #00a6c3;
 }
 .no_mobile .valor{
     display: flex;
@@ -1020,7 +1024,7 @@ svg.face{
     margin-top: 0.8vw;
     width: 70vw;
     border: 1vw solid #FFF;
-    outline: 0.5vw solid #489b89;
+    outline: 0.5vw solid #ff007f;
     border-radius: 1vw;
     padding: 1vw;
 }
@@ -1034,7 +1038,7 @@ svg.face{
 }
 .no_mobile .comprar:hover{
     background-color: #FFF;
-    border: 1vw solid #489b89;
+    border: 1vw solid #ff007f;
     outline: 0.5vw solid #FFF;
 }
 .no_mobile .texto_produto .bloco_tres{
@@ -1046,42 +1050,44 @@ svg.face{
     margin-top: 4vw;
 }
 .no_mobile .frete label{
-    color: #15362d;
+    color: #00a6c3;
     font-weight: 500;
     font-size: 3.5vw;
 }
+.no_mobile .cep{
+    height: 8vw;
+    display: flex;
+    align-items: flex-start;
+}
 .no_mobile .frete input{
-    color: #1f4d41;
+    color: #0930b5;
     margin-top: 0.2vw;
     outline: 0;
     font-size: 3.5vw;
     width: 30vw;
+    height: 100%;
     border: 0;
     padding: 1vw;
     border-top-left-radius: 0.7vw;
     border-bottom-left-radius: 0.7vw;
-    border-bottom: 0.15vw solid #489b89;
-    border-top: 0.15vw solid #489b89;
-    border-left: 0.15vw solid #489b89;
-}
-.no_mobile .cep{
-    display: flex;
-    align-items: flex-start;
+    border-bottom: 0.15vw solid #ff007f;
+    border-top: 0.15vw solid #ff007f;
+    border-left: 0.15vw solid #ff007f;
 }
 .no_mobile .ok{
     margin-top: 0.16vw;
     cursor: pointer;
-    color: #489b89;
+    color: #ff007f;
     padding: 1.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 6.2vw;
-    height: 6.4vw;
+    height: 100%;
     font-size: 3.5vw;
-    border-bottom: 0.15vw solid #489b89;
-    border-top: 0.15vw solid #489b89;
-    border-right: 0.15vw solid #489b89;
+    border-bottom: 0.15vw solid #ff007f;
+    border-top: 0.15vw solid #ff007f;
+    border-right: 0.15vw solid #ff007f;
     background-color: #FFF;
     font-weight: 600;
     border-top-right-radius: 0.7vw;
@@ -1092,7 +1098,7 @@ svg.face{
     border-bottom: 0.15vw solid #FFF;
     border-top: 0.15vw solid #FFF;
     border-right: 0.15vw solid #FFF;
-    background-color: #489b89;
+    background-color: #ff007f;
 }
 
 .no_mobile #info{
@@ -1107,7 +1113,7 @@ svg.face{
     width: 90%;
 }
 .no_mobile .expandir_info h2{
-    color: #1f4d41;
+    color: #0098b3;
     margin: 0;
     font-weight: 700;
     font-size: 5.5vw;
@@ -1118,10 +1124,10 @@ svg.face{
 }
 .no_mobile .texto_infos{
     margin-top: 0.7vw;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
 }
 .no_mobile .expandir_avaliacoes h2{
-    color: #1f4d41;
+    color: #0098b3;
     margin: 0;
     font-weight: 700;
     font-size: 5.5vw;
@@ -1148,7 +1154,7 @@ svg.face{
 }
 .no_mobile .em_numero span{
     user-select: none;
-    color: #306e63;
+    color: #04d9ff;
     margin: 0;
     line-height: 4.7vw;
     font-size: 12vw;
@@ -1166,17 +1172,17 @@ svg.face{
 .no_mobile .info_cliente{
     padding-right: 2.2vw;
     border-right: 0.2vw solid #FFF;
-    width: 8.45vw;
-    font-size: 2vw;
+    width: 14vw;
+    font-size: 3vw;
 }
 .no_mobile .info_cliente span{
     padding: 0.15vw 0;
 }
 .no_mobile .info_cliente .data{
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 .no_mobile .info_cliente svg{
-    width: 9.5vw;
+    width: 12vw;
 }
 .no_mobile .estrelas img{
     width: 4vw;
@@ -1185,7 +1191,7 @@ svg.face{
 }
 .no_mobile .texto_avaliacao{
     margin-left: 2.2vw;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
 }
 .no_mobile .expandir_perguntas h2{
     font-weight: 700;
@@ -1201,7 +1207,7 @@ svg.face{
     border-bottom: 0.2vw solid #FFF;
 }
 .no_mobile .qt_perguntas{
-    font-size: 3.5vw;
+    font-size: 4vw;
 }
 .no_mobile .qt_perguntas span{
     margin: 3vw;
@@ -1211,7 +1217,7 @@ svg.face{
     border-top: 0.2vw solid #FFF;
 }
 .no_mobile .perguntas_respostas{
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     margin-left: 2.2vw;
 }
 .no_mobile .pergunta, .resposta{
@@ -1245,7 +1251,7 @@ svg.face{
     margin-top: 0.1vw;
 }
 .no_mobile .topico{
-    font-size: 1.2vw;
+    font-size: 2vw;
 }
 .no_mobile .topico span{
     margin-bottom: 0.45vw;
