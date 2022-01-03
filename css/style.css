@@ -801,7 +801,7 @@ svg.face{
 .no_mobile.active ul li {
     text-align: center;
     position: relative;
-    width: 43vw;
+    width: 42.5vw;
 }
 .no_mobile.active li ul {
     position: absolute;
@@ -832,7 +832,7 @@ svg.face{
 }
 .no_mobile.active .menu4 .menu5{
     top: -8.75vw;
-    left: 43vw;
+    left: 42.5vw;
 }
 .no_mobile.active .menu3:hover .menu4{
     display: block;
