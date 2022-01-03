@@ -111,7 +111,6 @@ document.querySelector(".heart").addEventListener("click", function(){
     }
 });
 document.querySelector(".heart_mobile").addEventListener("touchstart", function(){
-    console.log(document.querySelector(".heart").src);
     if(document.querySelector(".heart_mobile").src == document.querySelector(".heart1").src){
         document.querySelector(".heart_mobile").src = document.querySelector(".heart2").src;
     }
