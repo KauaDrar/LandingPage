@@ -74,31 +74,31 @@ startList = function() {
 
 document.querySelector(".img1").addEventListener("click", function(){
     document.querySelector("#imagem img").src = document.querySelector(".img1").getAttribute('src');
-    document.querySelector(".img1").style.border = '2px solid #489b89';
-    document.querySelector(".img2").style.border = '2px solid #306e63';
-    document.querySelector(".img3").style.border = '2px solid #306e63';
-    document.querySelector(".img4").style.border = '2px solid #306e63';
+    document.querySelector(".img1").style.border = '2px solid #ff007f';
+    document.querySelector(".img2").style.border = '2px solid #04d9ff';
+    document.querySelector(".img3").style.border = '2px solid #04d9ff';
+    document.querySelector(".img4").style.border = '2px solid #04d9ff';
 });
 document.querySelector(".img2").addEventListener("click", function(){
     document.querySelector("#imagem img").src = document.querySelector(".img2").getAttribute('src');
-    document.querySelector(".img1").style.border = '2px solid #306e63';
-    document.querySelector(".img2").style.border = '2px solid #489b89';
-    document.querySelector(".img3").style.border = '2px solid #306e63';
-    document.querySelector(".img4").style.border = '2px solid #306e63';
+    document.querySelector(".img1").style.border = '2px solid #04d9ff';
+    document.querySelector(".img2").style.border = '2px solid #ff007f';
+    document.querySelector(".img3").style.border = '2px solid #04d9ff';
+    document.querySelector(".img4").style.border = '2px solid #04d9ff';
 });
 document.querySelector(".img3").addEventListener("click", function(){
     document.querySelector("#imagem img").src = document.querySelector(".img3").getAttribute('src');
-    document.querySelector(".img1").style.border = '2px solid #306e63';
-    document.querySelector(".img2").style.border = '2px solid #306e63';
-    document.querySelector(".img3").style.border = '2px solid #489b89';
-    document.querySelector(".img4").style.border = '2px solid #306e63';
+    document.querySelector(".img1").style.border = '2px solid #04d9ff';
+    document.querySelector(".img2").style.border = '2px solid #04d9ff';
+    document.querySelector(".img3").style.border = '2px solid #ff007f';
+    document.querySelector(".img4").style.border = '2px solid #04d9ff';
 });
 document.querySelector(".img4").addEventListener("click", function(){
     document.querySelector("#imagem img").src = document.querySelector(".img4").getAttribute('src');
-    document.querySelector(".img1").style.border = '2px solid #306e63';
-    document.querySelector(".img2").style.border = '2px solid #306e63';
-    document.querySelector(".img3").style.border = '2px solid #306e63';
-    document.querySelector(".img4").style.border = '2px solid #489b89';
+    document.querySelector(".img1").style.border = '2px solid #04d9ff';
+    document.querySelector(".img2").style.border = '2px solid #04d9ff';
+    document.querySelector(".img3").style.border = '2px solid #04d9ff';
+    document.querySelector(".img4").style.border = '2px solid #ff007f';
 });
 
 document.querySelector(".heart").addEventListener("click", function(){
