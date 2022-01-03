@@ -750,12 +750,12 @@ svg.face{
     margin: 0;
 }
 .no_mobile.active .conta img{
-    width: 15vw;
+    width: 17vw;
     margin-right: 1vw;
 }
 .no_mobile.active .conta span{
     color: #FFF;
-    font-size: 6vw;
+    font-size: 5.5vw;
 }
 .no_mobile.active .conta a{
     text-decoration: none;
