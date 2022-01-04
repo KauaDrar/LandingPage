@@ -175,12 +175,14 @@ document.querySelector(".open_fullscreen").addEventListener("touchstart", functi
     console.log(document.querySelector(".mensagem").style.opacity);
     document.querySelector("#imagem_aberta img").src = document.querySelector("#imagem_mobile img").getAttribute('src');
     document.querySelector(".no_mobile").classList.add('aberta');
+    setTimeout(function() {
+        document.querySelector(".mensagem").style.display = 'none';
+    }, 5000);
     $( ".mensagem" ).animate({
         opacity: 0,
       }, 
       5000, function() {
-      });
-
+    });
     document.querySelector('meta[name="viewport"]').setAttribute("content", "width=device-width, initial-scale=1");
 });
 document.querySelector(".fechar_imagem").addEventListener("touchstart", function(){
