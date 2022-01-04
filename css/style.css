@@ -44,7 +44,7 @@ body{
     border-radius: 0.5vw;
 }
 .pesquisa input{
-    color: #0098b3;
+    color: #000;
     height: 100%;
     margin: 0.2vw;
     padding: 0.2vw;
@@ -250,12 +250,7 @@ body{
     font-weight: 700;
     font-size: 3.5vw;
     color: #ff007f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #00a6c3;
-    filter: drop-shadow(0 0 0.15vw #00a6c3);
-    -webkit-filter: drop-shadow(0 0 0.15vw #00a6c3);
-    -moz-filter: drop-shadow(0 0 0.15vw #00a6c3);
-    -o-filter: drop-shadow(0 0 0.15vw #00a6c3);
+
 }
 .preco_detalhe{
     display: block;
@@ -292,7 +287,6 @@ body{
     color: #FFF;
     font-weight: 600;
     width: 16.8vw;
-    border: 2px solid #00a6c3;
 }
 .icones_detalhes img{
     cursor: pointer;
@@ -311,7 +305,6 @@ body{
     border-radius: 1vw;
     cursor: pointer;
     padding: 0.4vw;
-    filter: drop-shadow(0 0 0.5vw #ff0080);
 }
 .comprar span{
     font-weight: 600;
@@ -346,7 +339,7 @@ body{
     font-size: 0.98vw;
 }
 .frete input{
-    color: #0930b5;
+    color: #000;
     margin-top: 0.2vw;
     outline: 0;
     font-size: 1.1vw;
@@ -1038,7 +1031,6 @@ svg.face{
     color: #FFF;
     font-weight: 600;
     width: 57vw;
-    border: 2px solid #00a6c3;
 }
 .no_mobile .valor{
     display: flex;
@@ -1051,10 +1043,6 @@ svg.face{
 }
 .no_mobile .preco{
     font-size: 12vw;
-    filter: drop-shadow(0 0 1vw #00a6c3);
-    -webkit-filter: drop-shadow(0 0 1vw #00a6c3);
-    -moz-filter: drop-shadow(0 0 1vw #00a6c3);
-    -o-filter: drop-shadow(0 0 1vw #00a6c3);
 }
 .no_mobile .preco_detalhe{
     margin-left: 2vw;
@@ -1067,10 +1055,6 @@ svg.face{
     outline: 0.5vw solid #ff007f;
     border-radius: 1vw;
     padding: 1vw;
-    filter: drop-shadow(0 0 4vw #ff007f);
-    -webkit-filter: drop-shadow(0 0 4vw #ff007f);
-    -moz-filter: drop-shadow(0 0 4vw #ff007f);
-    -o-filter: drop-shadow(0 0 4vw #ff007f);
 }
 .no_mobile .comprar span{
     font-weight: 600;
@@ -1386,6 +1370,7 @@ svg.face{
 }
 .no_mobile.aberta .fullscreen .mensagem{
     z-index: 10;
+    padding: 2vw;
     user-select: none;
     position: fixed;
     top: 75vw;
@@ -1393,5 +1378,5 @@ svg.face{
     color: #ff007f;
     display: block;
     align-self: center;
-    font-size: 7vw;
+    font-size: 6vw;
 }
