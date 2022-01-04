@@ -39,8 +39,6 @@ if(checkDevice() == false){
                 const x = e.clientX - e.target.offsetLeft;
                 const y = e.clientY - e.target.offsetTop;
     
-                console.log(x, y);
-    
                 selecionado.style.transformOrigin = `${x}px ${y}px`;
                 selecionado.style.transform = "scale(3)";
             }
@@ -102,7 +100,6 @@ document.querySelector(".img4").addEventListener("click", function(){
 });
 
 document.querySelector(".heart").addEventListener("click", function(){
-    console.log(document.querySelector(".heart").src);
     if(document.querySelector(".heart").src == document.querySelector(".heart1").src){
         document.querySelector(".heart").src = document.querySelector(".heart2").src;
     }
@@ -172,7 +169,6 @@ document.querySelector(".seta_direita").addEventListener("touchstart", function(
     document.querySelector("#imagem_mobile img").src = matriz[x];
 });
 document.querySelector(".open_fullscreen").addEventListener("touchstart", function(){
-    console.log(document.querySelector(".mensagem").style.opacity);
     document.querySelector("#imagem_aberta img").src = document.querySelector("#imagem_mobile img").getAttribute('src');
     document.querySelector(".no_mobile").classList.add('aberta');
     setTimeout(function() {
